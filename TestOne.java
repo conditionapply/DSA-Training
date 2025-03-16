@@ -6,6 +6,7 @@ public class TestOne{
             for(int j =i+1;j<nums.length;j++){
                 if(nums[i] + nums[j]==target){
                     System.out.println("["+i+","+j+"]");
+                     System.out.println("["+i+","+j+"]");
                 }
             }
         }
