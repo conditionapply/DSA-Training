@@ -30,5 +30,5 @@ def findDM(nums):
     x = (sum_diff +sum_xy)//2
     y = x-sum_diff
     return [x,y]
-nums=[1,1]
+nums=[1,2,2,4]
 print(findDM(nums))
