@@ -44,8 +44,8 @@ def Half(s):
     count = 0
     count2 = 0
     for i in range(len(s)):
-        expceted1 = 0 if i %2==0 else "1"
-        expected2 =1 if i %2==0 else   "0"
+        expceted1 = 0 if i %2==0 else "1"  #0101
+        expected2 =1 if i %2==0 else   "0"  #1010
         if s[i]!= expceted1:
             count+=1
         if s[i]!= expected2:
