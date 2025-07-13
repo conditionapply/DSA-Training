@@ -30,13 +30,6 @@ def MatchingRule(items,ruleKey,ruleValue):
         if i[index]==ruleValue:
             count+=1
     return count
-        
-
-
-
-
-
-
 items = [["phone","blue","pixel"],["computer","silver","phone"],["phone","gold","iphone"]]
 ruleKey = "type"
 ruleValue = "phone"
